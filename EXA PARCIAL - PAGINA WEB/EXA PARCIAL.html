@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Luxold - Tienda de Ropa</title>
+    <link rel="icon" href="imagenes/favicon.ico" type="image/x-icon">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #FFD700;">
+        <a class="navbar-brand text-dark" href="#">The Luxold</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link text-dark" href="#about">Información</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" href="#products">Productos</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" href="#contact">Contáctanos</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" href="#testimonials">Reseñas</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" href="#promotions">Promociones</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" href="#faq">Preguntas</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" href="#locations">Ubicanos</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" href="#testivid">Presentación</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imagenes/coleccion_lux.jpg" class="d-block w-100" alt="Colección de Otoño" style="height: 400px; object-fit: cover;">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/accesorios_moda2.jpg" class="d-block w-100" alt="Ropa Elegante" style="height: 400px; object-fit: cover;">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/ropa_elegante.jpg" class="d-block w-100" alt="Accesorios y Complementos" style="height: 400px; object-fit: cover;">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+    </div>
+
+    <section id="about" class="container my-5">
+
+        <div class="row mb-3">
+            <div class="col-12 text-center">
+                <div class="info-bar">
+                    <h2>Información</h2>
+                </div>
+            </div>
+        </div>
+
+        <p>En <strong>The Lux</strong>, somos una tienda especializada en ropa y accesorios con temática "Old Money". Ofrecemos productos de la mejor calidad, siguiendo las últimas tendencias de moda pero con un enfoque elegante y atemporal. Nos enorgullece distribuir nuestras prendas a todo el Perú, brindando un estilo único que exuda lujo discreto, sofisticación y comodidad. Desde ropa elegante y casual hasta accesorios de moda exclusivos, nuestra misión es ayudarte a crear un guardarropa que refleje tu buen gusto y estatus sin necesidad de ostentación.</p>
+    </section>
+
+    <style>
+        .info-bar {
+            display: inline-block;
+            background-color: gold;
+            color: black;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .info-bar h2 {
+            margin: 0;
+            text-transform: uppercase;
+        }
+    </style>
+
+    <section id="products" class="container my-5">
+        <h2>Productos</h2>
+        <div class="row">
+            <!-- Producto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imagenes/vestido_elegante.jpg" class="card-img-top" alt="Vestidos Elegantes" style="height: 250px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Vestidos Elegantes</h5>
+                        <p class="card-text">Nuestros vestidos elegantes están diseñados para quienes aprecian el estilo clásico y sofisticado de la alta sociedad. Con cortes impecables y materiales de primera calidad, estos vestidos evocan la esencia del lujo discreto. Perfectos para eventos formales, cenas exclusivas o cualquier ocasión donde se busque una presencia refinada. Con la elegancia de "Old Money", nuestros vestidos destacan por su sobriedad y distinción, manteniendo siempre una estética atemporal que nunca pasa de moda.</p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Producto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imagenes/accesorios_moda.jpg" class="card-img-top" alt="Accesorios de Moda" style="height: 250px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Accesorios de Moda</h5>
+                        <p class="card-text">Los accesorios de moda "Old Money" de <strong>The Luxold</strong> complementan tu look con piezas elegantes y exclusivas que transmiten una sensación de lujo sutil. Desde relojes de diseño fino hasta pañuelos de seda, cada accesorio está seleccionado para aportar un toque de clase a cualquier atuendo. Estos artículos, que representan el equilibrio perfecto entre tradición y modernidad, son ideales para aquellos que aprecian la elegancia sin ostentación.</p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Producto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imagenes/ropa_casual.jpg" class="card-img-top" alt="Ropa Casual" style="height: 250px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Ropa Casual</h5>
+                        <p class="card-text">Nuestra ropa casual combina el confort diario con la sofisticación característica de la estética "Old Money". Cada prenda está confeccionada con tejidos de alta calidad, desde suéteres de cashmere hasta pantalones de corte impecable, garantizando que la comodidad nunca comprometa el estilo. Perfecta para el día a día, esta colección transmite una sensación de distinción sutil, ideal para aquellos que desean llevar el lujo y la elegancia de la alta sociedad a su vestimenta casual.</p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container my-5 p-4" style="background-color: #f8f9fa; border: 2px solid #FFD700; border-radius: 10px;">
+        <h2>Contactanos</h2>
+        <form action="mailto:contacto@thelux.com" method="post" enctype="text/plain">
+            <div class="form-group">
+                <label for="name">Nombre:</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensaje:</label>
+                <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </section>
+
+    <section id="testimonials" class="container my-5">
+        <h2 class="text-center">Lo que Dicen de Nosotros</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <blockquote class="blockquote text-center">
+                    <p class="mb-0">"La calidad de sus productos es inigualable. Me siento como de la realeza cada vez que uso sus prendas."</p>
+                    <footer class="blockquote-footer">María Gómez</footer>
+                </blockquote>
+            </div>
+            <div class="col-md-4">
+                <blockquote class="blockquote text-center">
+                    <p class="mb-0">"Simplemente elegante y atemporal. Un lujo discreto."</p>
+                    <footer class="blockquote-footer">Carlos Fernández</footer>
+                </blockquote>
+            </div>
+            <div class="col-md-4">
+                <blockquote class="blockquote text-center">
+                    <p class="mb-0">"Su atención al detalle es impecable. Estoy impresionado con la experiencia de compra."</p>
+                    <footer class="blockquote-footer">Ana López</footer>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+    
+    <section id="promotions" class="container my-5 text-center" style="background-color: #fff4e0; border: 2px solid #FFD700; padding: 20px; border-radius: 10px;">
+        <h2>Promociones Exclusivas</h2>
+        <p>No te pierdas nuestros descuentos especiales en colecciones seleccionadas. ¡Sólo por tiempo limitado!</p>
+        <a href="#products" class="btn btn-dark">Ver Promociones</a>
+    </section>
+    
+    <section id="faq" class="container my-5">
+        <h2 class="text-center">Preguntas Frecuentes</h2>
+        <div class="accordion" id="faqAccordion">
+            <div class="card">
+                <div class="card-header" id="faq1">
+                    <h5>
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true">
+                            ¿Cómo realizo un pedido?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapse1" class="collapse show" data-parent="#faqAccordion">
+                    <div class="card-body">
+                        Navega por nuestro catálogo, selecciona tus productos y completa el formulario de compra.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="faq2">
+                    <h5>
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse2">
+                            ¿Cuánto tarda en llegar mi pedido?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapse2" class="collapse" data-parent="#faqAccordion">
+                    <div class="card-body">
+                        Los envíos demoran entre 3 y 7 días hábiles dentro del Perú.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="locations" class="container my-5">
+        <h2 class="text-center">Nuestra Sede en Chiclayo</h2>
+        <p>Dirección: Real Plaza Chiclayo, Chiclayo, Perú</p>
+        <div class="map-responsive">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.158481812875!2d-79.8350432!3d-6.7785042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x904cef2c56f229ad%3A0x9ef53152a0c6b9d!2sReal%20Plaza%20Chiclayo!5e0!3m2!1ses-419!2spe!4v1701607632263!5m2!1ses-419!2spe" 
+                width="100%" 
+                height="300" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+        <p class="text-center mt-3">
+            <a href="https://www.google.com/maps/place/Real+Plaza+Chiclayo./@-6.7785042,-79.8350432,17z/data=!4m14!1m7!3m6!1s0x904cef2c56f229ad:0x9ef53152a0c6b9d!2sReal+Plaza+Chiclayo.!8m2!3d-6.7782675!4d-79.8326367!16s%2Fg%2F11cfjmccr!3m5!1s0x904cef2c56f229ad:0x9ef53152a0c6b9d!8m2!3d-6.7782675!4d-79.8326367!16s%2Fg%2F11cfjmccr?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D" 
+               target="_blank" 
+               class="btn btn-primary">
+                Ver en Google Maps
+            </a>
+        </p>
+    </section>
+    
+    <section id="testivid" class="container my-5">
+        <h2 class="text-center">Old Money: Elegancia contigo</h2>
+        <div class="row">
+            <!-- Video -->
+            <div class="col-md-6">
+                <video class="w-100" controls>
+                    <source src="imagenes/oldmoney.mp4" type="video/mp4">
+                </video>
+            </div>
+            
+            <!-- Información sobre el estilo Old Money -->
+            <div class="col-md-6">
+                <h3 class="text-center">"Old Money"</h3>
+                <p>El estilo "Old Money" refleja una elegancia sutil y sofisticada que se aleja de la ostentación y el derroche, enfocándose en la calidad y la tradición. Este estilo se asocia a menudo con familias adineradas de larga data, que prefieren mantener una imagen discreta pero refinada. A diferencia de los estilos más modernos o llamativos, el estilo "Old Money" se caracteriza por su enfoque en la permanencia y el buen gusto.</p>
+                 <p>Las prendas que componen este estilo son atemporales, elegidas cuidadosamente para resistir el paso del tiempo. Los colores neutros, como el beige, gris, blanco y azul marino, predominan en la vestimenta, ya que se consideran más refinados y menos propensos a pasar de moda. Las telas son de la más alta calidad, como el cashmere, la lana merino, el algodón egipcio, y el lino, que no solo ofrecen durabilidad sino también una textura y comodidad excepcionales.</p>
+                 <p>Una de las características más destacadas del estilo "Old Money" es su capacidad para mezclar lujo con simplicidad. La clave de este estilo es la sofisticación sin esfuerzo, sin necesidad de exhibir riquezas de manera visible. Se priorizan prendas clásicas, como trajes a medida, camisas de algodón de alta calidad, blazers bien cortados, pantalones de lana, y faldas de corte recto. Estos atuendos son discretos pero perfectamente elaborados, con detalles que muestran una excelente confección.</p>
+                <p>El estilo "Old Money" también se caracteriza por una atención meticulosa a los accesorios, que deben ser elegantes pero discretos. Los relojes vintage, que a menudo son piezas heredadas, son una parte esencial de este estilo, junto con joyería sencilla, como collares de perlas o anillos de diseño clásico. En lugar de optar por joyas ostentosas, las personas que adoptan este estilo prefieren piezas de alta calidad pero sin exageraciones.</p>
+                 <p>Además, la moda "Old Money" valora la comodidad y el ajuste sobre la tendencia del momento. Las prendas no deben solo verse bien, sino sentirse bien, adaptándose perfectamente al cuerpo sin la necesidad de hacer alarde de la marca o el logotipo. Los zapatos de cuero de alta calidad, como los mocasines y los Oxford, son comunes, así como las bufandas de cashmere y los abrigos de lana hechos a medida, que proporcionan una sensación de lujo sin ser excesivos.</p>
+                <p>Este estilo no es solo una cuestión de ropa, sino una forma de vida. Implica un enfoque hacia la calidad, la elegancia discreta y un respeto por la tradición.</p>
+        </div>
+    </section>
+    
+    <a href="https://wa.me/51964618454" target="_blank" class="btn btn-success" style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;">
+        <i class="fab fa-whatsapp"></i> Contactanos
+    </a>
+    
+                
+    <footer class="bg-dark text-white text-center p-3">
+        <p>&copy; 2024 The Luxold - Old Money Style </p>
+        <div>
+            <a href="https://www.facebook.com/TheLuxold" class="text-white mr-3" target="_blank">
+                <i class="fab fa-facebook-square" style="font-size: 24px;"></i>
+            </a>
+            <a href="https://twitter.com/TheLuxold" class="text-white mr-3" target="_blank">
+                <i class="fab fa-twitter-square" style="font-size: 24px;"></i>
+            </a>
+            <a href="https://www.instagram.com/TheLuxold" class="text-white" target="_blank">
+                <i class="fab fa-instagram-square" style="font-size: 24px;"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
